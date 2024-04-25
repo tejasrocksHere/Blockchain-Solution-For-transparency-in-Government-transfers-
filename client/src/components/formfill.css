@@ -1,0 +1,80 @@
+body{
+    
+    background-image: url(blockim.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.fdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width : 100%;
+    height : 100%;
+    
+}
+
+#div1 , #div12{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width : 25%;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 2px;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: aquamarine;
+}
+
+#div1:hover , #div12:hover{
+    width : 40%
+}
+
+#div12{
+    height: 150px;
+}
+.msg{
+    width : 67%;
+    height: 100px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color:blueviolet;
+    border-width: 2px;
+}
+
+#lbf{
+    color : black;
+}
+
+#butc{
+    margin-top: 1%;
+    width : 20%;
+    height : 50px;
+    font-size: large;
+    color : white;
+    background-color:rgb(17, 196, 255);
+}
+
+#butc:hover{
+    background-color: white;
+    color : black
+}
+
+.container{
+    width : 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color :blueviolet;
+    background-color: white;
+    border-radius: 5px;
+
+}

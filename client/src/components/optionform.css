@@ -1,0 +1,69 @@
+.transfer-request {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+    align-items: center;
+    background-color: lightslategray;
+}   
+
+  /*.form1{
+    margin : auto;
+  }*/
+  
+  .transfer-request h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  
+  .transfer-request label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .transfer-request input,
+  .transfer-request select,
+  .option10 , .option20 , .option30 ,#id0 {
+    display: block;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-width: 2px;
+  }
+  
+  .transfer-request input:focus,
+  .transfer-request select:focus {
+    outline: none;
+    border-color: #0088cc;
+  }
+  
+  .transfer-request button[type="submit"] {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .transfer-request button[type="submit"]:hover {
+    background-color: #006699;
+  }
+  

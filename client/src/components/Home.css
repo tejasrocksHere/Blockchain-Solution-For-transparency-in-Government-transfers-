@@ -1,0 +1,51 @@
+.div1 {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .p1 {
+    position: relative;
+    color: white;
+    -webkit-text-stroke: 1px white;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 100%;
+  }
+  
+  .p1_1 {
+    font-weight: 400;
+    font-size: 50px;
+  }
+  
+  .p1 {
+    position: relative;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  

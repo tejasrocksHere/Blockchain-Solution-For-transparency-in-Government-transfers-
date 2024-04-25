@@ -1,0 +1,145 @@
+/* Set background image and animation */
+body {
+    background-color: lightcyan;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+  }
+  .cartoon {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 100px;
+    right: 70%;
+    top: 70px;
+    animation: moveUpDown 1s ease-in-out infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Define animation for background image */
+
+  
+  /* Center content in a div */
+  .udiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+    position: relative;
+    bottom: 20%;
+}
+  @keyframes float {
+    0% {
+      background-position: center 0%;
+    }
+    50% {
+      background-position: center 10%;
+    }
+    100% {
+      background-position: center 0%;
+    }
+  }
+  
+  /* Adjust the position of the title */
+  .h1title {
+    margin-left: -40%;
+    color : white;
+  }
+  
+  /* Style form fields */
+  #id,
+  #source,
+  #option1,
+  #option2,
+  #option3,
+  #post {
+    border: 2px solid #8a2be2;
+    margin: 20px 0;
+    height: 40px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Add hover effect to input fields */
+  #id:hover,
+  #source:hover,
+  #option1:hover,
+  #option2:hover,
+  #option3:hover,
+  #post:hover {
+    border-color: #4b0082;
+  }
+  
+  /* Style container for input fields */
+  .div1_1 {
+    animation: float 3s ease-in-out infinite;
+
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #8a2be2;
+    padding: 0 20px;
+    height: 60px;
+    /*border-radius: 30px;*/
+    background-color: #ffe4e1;
+    position: relative;
+  
+    transition: background-color 0.3s ease;
+  }
+  
+  .div1_1 label {
+    width: 100%;
+  }
+  
+  /* Add hover effect to container */
+  .div1_1:hover {
+    background-color: #9370db;
+    width: 100%;
+    position: relative;
+    right: 30%;
+  }
+  
+  /* Style label for input fields */
+  #l1 {
+    font-size: 20px;
+  }
+  
+  /* Style submit button */
+  .btna {
+    margin: 2% 0 0 -3%;
+    margin-left: -50%;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #8a2be2;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffe4e1;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add hover effect to submit button */
+  .btna:hover {
+    background-color: #4b0082;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Add transition to all elements */
+  * {
+    transition: all 0.3s ease;
+  }
+  
